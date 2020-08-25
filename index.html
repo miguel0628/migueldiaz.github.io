@@ -1,129 +1,449 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>My Webpage</title>
-  
-<style>
-    table, th, td {
-  border: 1px solid black;}
-  body {
-  background-color: #ADD8E6;
-  }
-/* Set the background color of body to tan */
-body {
-  background-color: #ADD8E6;
-}
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-/* On screens that are 992px or less, set the background color to blue */
-@media screen and (max-width: 992px) {
-  body {
-    background-color: tan;
-  }
-}
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-/* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 600px) {
-  body {
-    background-color: olive;
-  }
-}
+<head>
 
+<title>Educational details</title>
 
-p#objective { 
-    font-style: italic;
-}
-h1,h2.center,h2 {
-    text-align: center;
-    color: green;
-}
+<meta charset="utf-8"></meta>
 
-img.center{
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-.button{
-    background-color:#ADD8E6; 
-  color: black; 
-  border: 2px solid #4CAF50;
-  font-size: 16px;
-  float : left;
-}
+<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
-.grid-container {
-  display: inline-grid;
-  grid-template-columns: auto auto auto;
-  background-color: #2196F3;
-  padding: 10px;
-}
+</link>
 
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-}
-.grid-item1 {
-  grid-column: 1 / 5;
-}
-
-
-</style>
+<link rel="stylesheet" type="text/css" href="edu1.css"></link>
 
 </head>
-<h1> Knowing Miguel</h1>
-    
-        <div class = "intro">
-       <p id ="introduction">Hello, my name is Miguel I study computer engineering at <a href="https://www.pupr.edu"> PUPR.</a> </p>
-    </body>
-    <p id ="objective">I'm doing my final project on a webpage and started looking on the internet for good courses that taught HTML,CSS and JavaScript. The other day I was on twitter very late and found a link that said"Don't waste your time during the COVID-19 lockdown, get certified and learn in online courses from Harvad and other univerisities. Now I'm doing this project 0 and hopefully finish with a certification.
-    </p>
+
+<body>
+
+<nav>
+
+<ul class="topnav">
+
+<li class="navbar"><a href="proŜle.xhtml">ProŜle</a></li>
+
+<li class="navbar"><a href="educationaldetails.xhtml">Educational Details</a></li>
+
+<li class="navbar"><a href="personalinterests.xhtml">Personal Interests</a></li>
+
+</ul>
+
+</nav>
+
+<div>
+
+<h1 align="Center">Educational Details</h1>
+
+<h2 align="Center">I am providing some of my educational details here</h2>
+
+<br></br>
+
+<h3>Here is the list of the subjects in the present Semester</h3>
+
+<div id="mylist">
+
+<ul>
+
+<li>XHTML</li>
+
+<li>HTML</li>
+
+<li>XML</li>
+
+<li>CSS</li>
+
+</ul>
+
 </div>
-    <p>I want you learn more about me, I'll list below things that I like or like to do:</h2>
 
-    <ul style="list-style-type:square;">
-      <li>Drinking coffee.</li>
-      <li>Playing basketball.</li>
-      <li>My favorite clothing brand is Polo Ralph Lauren.</li>
-    </ul>
-</p>
-<h2 class= "center">My Beautiful Island Puerto Rico</h2>
-<img src="https://assets3.thrillist.com/v1/image/2770879/size/gn-gift_guide_variable_c_2x.jpg" alt="Trulli" width="500" height="333" class ="center">
+<br></br>
 
-<h2>Must Go Places</h2>
-<p>These are my top 3 attractions.</p>
+<h3>Providing the table of credits of the Subjects</h3>
 
-<table style="width:100%">
-  <tr>
-    <th>Attraction</th>
-    <th>Location</th> 
-   
-  </tr>
-  <tr>
-    <td>Playa Flamenco</td>
-    <td>Culebra,PR</td>
-    
-  </tr>
-  <tr>
-    <td>Caja De Muertos</td>
-    <td>Ponce,PR</td>
-   
-  </tr>
-  <tr>
-    <td>Rainforest El Yunque</td>
-    <td>Rio Grande,PR</td>
+<table>
+
+<tr>
+
+<th>S.No</th>
+
+<th>Subject Name</th>
+
+<th>Credits</th>
+
 </tr>
+
+<tr>
+
+<td>1</td>
+
+<td>XHTML</td>
+
+<td>4</td>
+
+</tr>
+<tr>
+
+<td>2</td>
+
+<td>HTML</td>
+
+<td>4</td>
+
+</tr>
+
+<tr>
+
+<td>3</td>
+
+<td>XML</td>
+
+<td>3</td>
+
+</tr>
+
+<tr>
+
+<td>4</td>
+
+<td>CSS</td>
+
+<td>2</td>
+
+</tr>
+
 </table>
 
-<p>Which attraction would you choose, press the button to take a look? </p>
-<div class="grid-container">
-    <a href="https://www.tripadvisor.es/Attraction_Review-g580453-d147939-Reviews-Flamenco_Beach-Culebra_Puerto_Rico.html" button class ="button" class="grid-item1">Playa Flamenco</button></a>
-    <a href= "https://www.tripadvisor.es/Attraction_Review-g147323-d2257716-Reviews-Isla_de_Caja_de_Muertos-Ponce_Puerto_Rico.html"button class ="button" class="grid-item2">Caja De Muertos</button></a>
-    <a href = "https://www.tripadvisor.es/Attraction_Review-g147324-d1448148-Reviews-El_Yunque_Rain_Forest-El_Yunque_National_Forest_Puerto_Rico.html" button class ="button" class="grid-item3">Rainforest El Yunque</button></a>
+</div>
 
+</body>
 
 </html>
+
+personalinterests.xhtml
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<title>Personal Interests</title>
+
+<meta charset="utf-8"></meta>
+
+<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+</link>
+
+<link rel="stylesheet" type="text/css" href="edu1.css"></link>
+
+</head>
+
+<body>
+
+<nav>
+
+<ul class="topnav">
+
+<li class="navbar"><a href="proŜle.xhtml">ProŜle</a></li>
+
+<li class="navbar"><a href="educationaldetails.xhtml">Educational Details</a></li>
+
+<li class="navbar"><a href="personalinterests.xhtml">Personal Interests</a></li>
+
+</ul>
+
+</nav>
+
+<div>
+
+<h1 align="Center">Personal Interests</h1>
+
+<h2 align="Center">I am providing some of my Personal Interests here</h2>
+
+<br></br>
+
+<blockquote>Providing both the details of my PERSONAL Interests and DAILY Routine</blockquote>
+
+<h3>Here is the list of the my hobbies</h3>
+<div id="mylist">
+
+<ul>
+
+<li>Jogging</li>
+
+<li>Reading Books</li>
+
+<li>Listening Music</li>
+
+<li>Playing BaseBall</li>
+
+</ul>
+
+</div>
+
+<br></br>
+
+<h3>Providing the table of timinggs of my daily Routine</h3>
+
+<table>
+
+<tr>
+
+<th>S.No</th>
+
+<th>Timing</th>
+
+<th>Description</th>
+
+</tr>
+
+<tr>
+
+<td>1</td>
+
+<td>6AM - 8AM</td>
+
+<td>WorkOut at Gym</td>
+
+</tr>
+
+<tr>
+
+<td>2</td>
+
+<td>9AM - 10AM</td>
+
+<td>Getting ready for college</td>
+
+</tr>
+
+<tr>
+
+<td>3</td>
+
+<td>10AM - 2PM</td>
+
+<td>Collge and Library</td>
+
+</tr>
+
+<tr>
+
+<td>4</td>
+
+<td>2PM-4PM</td>
+
+<td>Taking Rest</td>
+
+</tr>
+
+<tr>
+
+<td>5</td>
+
+<td>4PM-6PM</td>
+
+<td>Jogging and Reading Novels</td>
+
+</tr>
+
+<tr>
+
+<td>6</td>
+
+<td>6PM-9PM</td>
+
+<td>Dinner annd Listening Music</td>
+
+</tr>
+
+<tr>
+
+<td>7</td>
+
+<td>9PM-6AM</td>
+
+<td>Immense Sleep</td>
+
+</tr>
+
+</table>
+
+</div>
+</body>
+
+</html>
+
+edu.css
+
+.topnav {
+
+list-style-type: none;
+
+margin: 0;
+
+padding: 0;
+
+overşow: hidden;
+
+background-color:#4d5052;
+
+}
+
+.navbar{
+
+şoat: left;
+
+font-size: 18px;
+
+font-weight: 1000;
+
+}
+
+.navbar:hover {
+
+background-color: #4CAF50;
+
+}
+
+.navbar a{
+
+display: block;
+
+color: #e4e2e2;
+
+text-align: center;
+
+padding: 14px 16px;
+
+text-decoration: none;
+
+}
+
+h1{font-style:italic; font-family:Georgia, Times, serif; color:#00008B;}
+
+h2{font-style:italic; font-family:Georgia, Times, serif; color:#00008B;}
+
+h3{font-style:italic; font-family:Georgia, Times, serif; color:#8A2BE2;}
+
+#mylist { width:320px; }
+
+#mylist ul { font-style:italic; font-family:Georgia, Times, serif; font-size:24px; color:#FF7F50; }
+
+#mylist ul li { }
+
+table, td, th {
+
+border: 1px solid #ddd;
+
+text-align: left;
+
+}
+
+table {
+
+border-collapse: collapse;
+
+width: 100%;
+
+}
+
+th, td {
+
+padding: 15px;
+
+}
+
+td{font-style:italic; font-family:Georgia, Times, serif; color:#FF7F50;}
+
+edu1.css
+
+.topnav {
+
+list-style-type: none;
+
+margin: 0;
+padding: 0;
+
+overşow: hidden;
+
+background-color:#A52A2A;
+
+}
+
+.navbar{
+
+şoat: left;
+
+font-size: 18px;
+
+font-weight: 1000;
+
+}
+
+.navbar:hover {
+
+background-color: #FFD700;
+
+}
+
+.navbar a{
+
+display: block;
+
+color: #e4e2e2;
+
+text-align: center;
+
+padding: 14px 16px;
+
+text-decoration: none;
+
+}
+
+h1{font-style:italic; font-family:Georgia, Times, serif; color:#00008B;}
+
+h2{font-style:italic; font-family:Georgia, Times, serif; color:#00008B;}
+
+h3{font-style:italic; font-family:Georgia, Times, serif; color:#DAA520;}
+
+#mylist { width:320px; }
+
+#mylist ul { font-style:italic; font-family:Georgia, Times, serif; font-size:24px; color:#FF69B4; }
+
+#mylist ul li { }
+
+table, td, th {
+
+border: 1px solid #ddd;
+
+text-align: left;
+
+}
+
+table {
+
+border-collapse: collapse;
+
+width: 100%;
+
+}
+
+th, td {
+
+padding: 15px;
+
+}
+
+td{font-style:italic; font-family:Georgia, Times, serif; color:#FF69B4;}
