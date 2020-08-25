@@ -1,1 +1,129 @@
-<h1> hwlo </h1>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Webpage</title>
+  
+<style>
+    table, th, td {
+  border: 1px solid black;}
+  body {
+  background-color: #ADD8E6;
+  }
+/* Set the background color of body to tan */
+body {
+  background-color: #ADD8E6;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  body {
+    background-color: tan;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+}
+
+
+p#objective { 
+    font-style: italic;
+}
+h1,h2.center,h2 {
+    text-align: center;
+    color: green;
+}
+
+img.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.button{
+    background-color:#ADD8E6; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  font-size: 16px;
+  float : left;
+}
+
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-item1 {
+  grid-column: 1 / 5;
+}
+
+
+</style>
+
+</head>
+<h1> Knowing Miguel</h1>
+    
+        <div class = "intro">
+       <p id ="introduction">Hello, my name is Miguel I study computer engineering at <a href="https://www.pupr.edu"> PUPR.</a> </p>
+    </body>
+    <p id ="objective">I'm doing my final project on a webpage and started looking on the internet for good courses that taught HTML,CSS and JavaScript. The other day I was on twitter very late and found a link that said"Don't waste your time during the COVID-19 lockdown, get certified and learn in online courses from Harvad and other univerisities. Now I'm doing this project 0 and hopefully finish with a certification.
+    </p>
+</div>
+    <p>I want you learn more about me, I'll list below things that I like or like to do:</h2>
+
+    <ul style="list-style-type:square;">
+      <li>Drinking coffee.</li>
+      <li>Playing basketball.</li>
+      <li>My favorite clothing brand is Polo Ralph Lauren.</li>
+    </ul>
+</p>
+<h2 class= "center">My Beautiful Island Puerto Rico</h2>
+<img src="https://assets3.thrillist.com/v1/image/2770879/size/gn-gift_guide_variable_c_2x.jpg" alt="Trulli" width="500" height="333" class ="center">
+
+<h2>Must Go Places</h2>
+<p>These are my top 3 attractions.</p>
+
+<table style="width:100%">
+  <tr>
+    <th>Attraction</th>
+    <th>Location</th> 
+   
+  </tr>
+  <tr>
+    <td>Playa Flamenco</td>
+    <td>Culebra,PR</td>
+    
+  </tr>
+  <tr>
+    <td>Caja De Muertos</td>
+    <td>Ponce,PR</td>
+   
+  </tr>
+  <tr>
+    <td>Rainforest El Yunque</td>
+    <td>Rio Grande,PR</td>
+</tr>
+</table>
+
+<p>Which attraction would you choose, press the button to take a look? </p>
+<div class="grid-container">
+    <a href="https://www.tripadvisor.es/Attraction_Review-g580453-d147939-Reviews-Flamenco_Beach-Culebra_Puerto_Rico.html" button class ="button" class="grid-item1">Playa Flamenco</button></a>
+    <a href= "https://www.tripadvisor.es/Attraction_Review-g147323-d2257716-Reviews-Isla_de_Caja_de_Muertos-Ponce_Puerto_Rico.html"button class ="button" class="grid-item2">Caja De Muertos</button></a>
+    <a href = "https://www.tripadvisor.es/Attraction_Review-g147324-d1448148-Reviews-El_Yunque_Rain_Forest-El_Yunque_National_Forest_Puerto_Rico.html" button class ="button" class="grid-item3">Rainforest El Yunque</button></a>
+
+
+</html>
