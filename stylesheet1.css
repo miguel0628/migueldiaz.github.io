@@ -37,7 +37,7 @@ h3{font-style:italic; font-family:Georgia, Times, serif; color:#8A2BE2;}
   
 
 #mylist { width:320px; }
-#mylist ul { font-style:italic; font-family:Georgia, Times, serif; font-size:24px; color:#FF7F50; }
+#mylist ul { text-align:center; list-style-position:inside; font-style:italic; font-family:Georgia, Times, serif; font-size:24px; color:#FF7F50; }
 #mylist ul li { }
 
 
