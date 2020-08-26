@@ -24,7 +24,11 @@
    text-decoration: none;
 }
   
-  
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}  
   
 h1{font-style:italic; font-family:Georgia, Times, serif; color:#00008B;}
 h2{font-style:italic; font-family:Georgia, Times, serif; color:#00008B;}
