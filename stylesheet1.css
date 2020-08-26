@@ -49,6 +49,7 @@ text-align: left;
 table {
 border-collapse: collapse;
 width: 100%;
+align: center;
 }
 
 th, td {
