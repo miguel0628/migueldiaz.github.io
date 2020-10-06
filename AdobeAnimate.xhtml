@@ -15,10 +15,6 @@
 <link rel="stylesheet" type="text/css" href="stylesheet1.css"></link>
 <link rel="stylesheet" type="text/css" href="QuizStyle.css"></link>
 
-
-<script type ="text/javascript" src="Dog-Laila.js"></script>
-
-
 <!-- write your code here -->
 <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
 <script src="Dog-Laila.js"></script>
@@ -38,7 +34,7 @@ function init() {
 }
 function handleFileLoad(evt, comp) {
 	var images=comp.getImages();	
-	if (evt  (evt.item.type == "image")) { images[evt.item.id] = evt.result; }	
+	if (evt && (evt.item.type == "image")) { images[evt.item.id] = evt.result; }	
 }
 function handleComplete(evt,comp) {
 	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
