@@ -34,7 +34,7 @@ function init() {
 }
 function handleFileLoad(evt, comp) {
 	var images=comp.getImages();	
-	if (evt &amp&amp (evt.item.type == "image")) { images[evt.item.id] = evt.result; }	
+	if (evt &amp (evt.item.type == "image")) { images[evt.item.id] = evt.result; }	
 }
 function handleComplete(evt,comp) {
 	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
